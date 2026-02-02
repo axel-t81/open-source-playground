@@ -18,10 +18,12 @@ class Person(BaseModel):
     name: str
     age: int
     occupation: str
+    location: str
 
 person = client.chat.completions.create(
     model="llama3.2",
-    messages=[{"role": "user", "content": "Extract: John is a 32 year old carpenter"}],
+    messages=[{"role": "user", 
+    "content": "Extract: Max was about to start his new job as a software engineer in New York City. He is 28 years old and has a bachelor's degree in computer science."}],
     response_model=Person,
 )
 
