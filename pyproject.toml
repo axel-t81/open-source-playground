@@ -8,5 +8,6 @@ dependencies = [
     "anthropic>=0.76.0",
     "instructor>=1.14.4",
     "ollama>=0.6.1",
+    "opencv-python>=4.0.0",
     "pydantic>=2.12.5",
 ]
