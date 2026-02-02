@@ -1,0 +1,12 @@
+[project]
+name = "open-source-playground"
+version = "0.1.0"
+description = "A project to play around with open source projects, to become a better programmer."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.76.0",
+    "instructor>=1.14.4",
+    "ollama>=0.6.1",
+    "pydantic>=2.12.5",
+]
